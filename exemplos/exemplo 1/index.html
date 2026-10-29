@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Estilização - Menus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+<body>
+    <!-- Menu Superior -->
+     <header class="topo" id="inicio">
+        <h1>Portal de Tecnologia</h1>
+        <p>Exemplo simples de HTML+CSS</p>
+        <nav class="menu-horizontal">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#imagem">Imagens</a></li>
+                <li><a href="#listas">Listas</a></li>
+                <li><a href="#tabelas">Tabelas</a></li>
+                <li><a href="#link">Links</a></li>
+            </ul>
+        </nav>
+     </header>
+     <div class="pagina">
+            <aside class="menu-lateral">
+                <h2>Conteúdos</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#imagem"><i class="fa-solid fa-image" style="color: rgb(7, 7, 37);"></i>1. Imagens</a></li>
+                        <li><a href="#listas"><i class="fa-solid fa-list" style="color: rgb(7, 7, 37);"></i>2. Listas</a></li>
+                        <li><a href="#tabelas">3. Tabelas</a></li>
+                        <li><a href="#link">4. Links</a></li>
+                    </ul>
+                </nav>
+            </aside>
+        <main class="conteudo">
+            <section class="section">
+                <h2>1. Imagens</h2>
+                <p>Tag imagem</p>
+                <img class="imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYeW0RiX0y8Zy8L7pmRvl7TOGe01I16Oyvmtq-SAayng&s=10" alt="">
+            </section>
+            <section id="listas" class="section">
+                <h2>2. Listas</h2>
+                <p>Uma lista não Ordenada</p>
+                <ul class="lista-conteudo">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </section>
+            <section id="tabelas" class="section">
+                <h2>3. Tabelas</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tecnologias</th>
+                            <th>Finalidade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Estrutura da página</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="link" class="section">
+                <h2>4. Links</h2>
+                <p>Um link para o mió time do BRASIL</p>
+                <a href="https://www.corinthians.com.br/"><img src="https://thumb.wikimedia.org/wikipedia/pt/thumb/b/b4/Corinthians_simbolo.png/250px-Corinthians_simbolo.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt=""></a>
+            </section>
+        </main>
+        </div>
+</body>
+</html>
